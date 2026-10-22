@@ -65,7 +65,7 @@ Slack 側の制約として残るもの:
 - Markdown 画像記法は `markdown` ブロック内では埋め込み画像にならない
 - 数式, 生 HTML, HTML comment, `<details>`, admonition 記法, Mermaid は特別な表示にならず、テキストまたはコードとして出る
 - 新しく公式記載された Block Kit ブロックでも、利用する `chat.postMessage` 経路では未対応の場合があるため、このライブラリは実際の Slack 送信で確認した保守的なリッチブロックだけを出力する
-- Slack **モバイル**アプリは、`markdown` ブロック内のリスト項目に属する継続行（CommonMark で同じリスト項目に紐づくインデントされた段落）の先頭に、リストマーカーを再付加してしまう。例: `1. 見出し` の次にインデントされた継続段落を置くと、モバイルでは `1. 見出し` と `1.継続行...` のように番号が重複して表示される。Slack デスクトップ／Web は同じペイロードを正しく描画する。これはパーサー側の不具合ではなく Slack クライアントのレンダリング挙動。追跡: [issue #45](https://github.com/darkgaldragon/slack-markdown-parser/issues/45)。
+- Slack **モバイル**アプリは、`markdown` ブロック内のリスト項目に属する継続行（CommonMark で同じリスト項目に紐づくインデントされた段落）の先頭に、リストマーカーを再付加してしまう。例: `1. 見出し` の次にインデントされた継続段落を置くと、モバイルでは `1. 見出し` と `1.継続行...` のように番号が重複して表示される。Slack デスクトップ／Web は同じペイロードを正しく描画する。これはパーサー側の不具合ではなく Slack クライアントのレンダリング挙動。追跡: [issue #45](https://github.com/darkgaldoggo/slack-markdown-parser/issues/45)。
 
 このライブラリが吸収するもの:
 
@@ -216,7 +216,7 @@ Issue / Pull Request を作成する前に [CONTRIBUTING.md](CONTRIBUTING.md) �
 ## 連絡先
 
 - GitHub Issue / Pull Request
-- X: [@darkgaldragon](https://x.com/darkgaldragon)
+- X: [@darkgaldoggo](https://x.com/darkgaldoggo)
 
 ## ライセンス
 
