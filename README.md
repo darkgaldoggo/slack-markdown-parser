@@ -76,7 +76,7 @@ Known Slack-side limitations:
 - Markdown image syntax does not become an embedded image in `markdown` blocks
 - Math, raw HTML, HTML comments, `<details>`, admonition syntax, and Mermaid are rendered as plain text or code, not as rich features
 - Some newly documented Block Kit block types can be unavailable on a given `chat.postMessage` path; this library emits only a conservative subset of richer block types that has been validated through real Slack posting checks.
-- The Slack **mobile** app re-prefixes the list marker onto each continuation line of a list item inside `markdown` blocks (e.g. `1. Heading` followed by an indented paragraph shows as `1. Heading` / `1.continuation` on mobile, while Slack desktop and Slack Web render the same payload correctly). This is a Slack client-side rendering behavior, not a parser bug. Tracking: [issue #45](https://github.com/darkgaldragon/slack-markdown-parser/issues/45).
+- The Slack **mobile** app re-prefixes the list marker onto each continuation line of a list item inside `markdown` blocks (e.g. `1. Heading` followed by an indented paragraph shows as `1. Heading` / `1.continuation` on mobile, while Slack desktop and Slack Web render the same payload correctly). This is a Slack client-side rendering behavior, not a parser bug. Tracking: [issue #45](https://github.com/darkgaldoggo/slack-markdown-parser/issues/45).
 
 What this library compensates for:
 
@@ -236,7 +236,7 @@ Version history is maintained in [CHANGELOG.md](CHANGELOG.md).
 ## Contact
 
 - GitHub Issues / Pull Requests
-- X: [@darkgaldragon](https://x.com/darkgaldragon)
+- X: [@darkgaldoggo](https://x.com/darkgaldoggo)
 
 ## License
 
